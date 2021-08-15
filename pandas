@@ -1,0 +1,2 @@
+data.dropna(axis=0)
+dropna drops missing values (think of na as "not available")
