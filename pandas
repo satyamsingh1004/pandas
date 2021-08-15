@@ -1,2 +1,9 @@
 data.dropna(axis=0)
 dropna drops missing values (think of na as "not available")
+
+Choosing "Features"
+melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude']
+X = melbourne_data[melbourne_features]
+
+
+
